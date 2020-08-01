@@ -47,8 +47,9 @@ Directory structure :
 Download weights using 
 `! gdown https://drive.google.com/uc?id=1CPSeum3HpopfomUEK1gybeuIVoeJT_Eo` <br/>
 Define vgg-face model architecture and load weights.
-##Step 4: Train Softmax regressor for 6 person classification from embeddings.
+## Step 4: Train Softmax regressor for 6 person classification from embeddings.
 Prepare train data and test data from the embeddings and feed into a simple softmax regressor with 3 layers containing first layer with 100 units and tanh activation function , second layer with 10 units and tanh activation function and third layer with 6 units for each person with softmax activation.<br/>
 <br/>**Predictions**<br/>
 For an image(may contain multiple faces) extract each face,get embeddings,get prediction from classifier network,make bounding box around face and write person name.<br/><br/>
 **Some Predicted Image Results**<br/>
+

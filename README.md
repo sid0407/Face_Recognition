@@ -52,4 +52,7 @@ Prepare train data and test data from the embeddings and feed into a simple soft
 <br/>**Predictions**<br/>
 For an image(may contain multiple faces) extract each face,get embeddings,get prediction from classifier network,make bounding box around face and write person name.<br/><br/>
 **Some Predicted Image Results**<br/>
-
+![maxresdefault](https://user-images.githubusercontent.com/64326560/89098012-92bae880-d401-11ea-9843-bfa810cdcd70.jpg)
+![911831-kritisanon-motivationalquote](https://user-images.githubusercontent.com/64326560/89098013-9484ac00-d401-11ea-902b-5e9d8ebff5b7.jpg)
+![ayushsu1-1592394645](https://user-images.githubusercontent.com/64326560/89098015-951d4280-d401-11ea-9c60-c6c91a04ae6d.jpg)
+![DwnavjPUYAAqEh2](https://user-images.githubusercontent.com/64326560/89098017-95b5d900-d401-11ea-8919-346e6f6fc76c.jpg)
